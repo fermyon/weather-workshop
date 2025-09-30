@@ -1,0 +1,18 @@
+spin_manifest_version = 2
+
+[application]
+authors = ["Mikkel Mørk Hegnhøj <mikkel@fermyon.com>"]
+description = ""
+name = "hm-workshop1"
+version = "0.1.0"
+
+[[trigger.http]]
+route = "/..."
+component = "hm-workshop1"
+
+[component.hm-workshop1]
+source = "dist/hm-workshop1.wasm"
+exclude_files = ["**/node_modules"]
+[component.hm-workshop1.build]
+command = ["npm install", "npm run build"]
+watch = ["src/**/*.ts"]
