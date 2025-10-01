@@ -2,6 +2,12 @@
 
 A starter template for building TypeScript HTTP applications with Spin.
 
+## Tooling needed
+
+[Spin](https://spinframework.dev/v3/install)
+
+[Spin Language Guide for TypeScript/Javascript](https://spinframework.dev/v3/javascript-components)
+
 ## Getting Started
 
 Build the App

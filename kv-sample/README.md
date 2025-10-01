@@ -2,6 +2,12 @@
 
 A Spin application that uses Key-Value to serve HTML content.
 
+## Tooling needed
+
+[Spin](https://spinframework.dev/v3/install)
+
+[Spin Language Guide for TypeScript/Javascript](https://spinframework.dev/v3/javascript-components)
+
 ## Building
 
 The following command can be used to build the component:
